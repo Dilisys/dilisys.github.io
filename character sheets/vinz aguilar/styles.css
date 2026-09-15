@@ -1,0 +1,14 @@
+.icondiv{
+    display: flex;
+    justify-content: center;
+}
+
+.icon {
+    max-width: 50%;
+    min-width: 50%;
+    border-radius: 50%;
+}
+
+.psyche{
+    color:purple;
+}

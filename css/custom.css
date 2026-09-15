@@ -1,0 +1,24 @@
+:root {
+    --sans-font: Georgia, "Times New Roman", serif;
+    --bg: #160c28;
+    --accent-bg: #271647;
+    --marked: #FBD1A2;
+    --text: ghostwhite;
+    --accent: #FE626E;
+}
+
+@media (prefers-color-scene: dark) {
+    :root,
+    ::backdrop{
+        color-scheme: dark;
+        --bg: #160c28;
+        --accent-bg: #00b2ca;
+        --marked: #FBD1A2;
+        --text: #7DCFB6;
+        --accent: #FE626E;
+    }
+}
+
+header h1{
+    text-transform: uppercase;
+}
